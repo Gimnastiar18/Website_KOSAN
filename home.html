@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>KOS-AN</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+ 
+</head>
+
+<body>
+
+  <!-- ======= Property Search Section ======= -->
+  <div class="click-closed"></div>
+  <!--/ Form Search Star /-->
+  <div class="box-collapse">
+    <div class="title-box-d">
+      <h3 class="title-d">Cari Kos</h3>
+    </div>
+    <span class="close-box-collapse right-boxed bi bi-x"></span>
+    <div class="box-collapse-wrap form">
+      <form class="form-a">
+        <div class="row">
+          <div class="col-md-12 mb-2">
+            <div class="form-group">
+              <label class="pb-2" for="Type">Masukan keyword</label>
+              <input type="text" class="form-control form-control-lg form-control-a" placeholder="Keyword">
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="Type">Tipe</label>
+              <select class="form-control form-select form-control-a" id="Type">
+                <option>All Type</option>
+                <option>STUDIO</option>
+                <option>REGULAR</option>
+                <option>PREMIUM</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="city">Univesitas</label>
+              <select class="form-control form-select form-control-a" id="city">
+                <option>UI Depok</option>
+                <option>UNNES Semarang</option>
+                <option>UPI Bandung</option>
+                <option>UGM Jojga</option>
+                <option>Semua Universitas</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="bedrooms">Jumlah Kasur / Tamu</label>
+              <select class="form-control form-select form-control-a" id="bedrooms">
+                <option>01</option>
+                <option>02</option>
+                
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="garages">Garasi</label>
+              <select class="form-control form-select form-control-a" id="garages">
+                <option>Tanpa Garasi</option>
+                <option>01</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="bathrooms">Kamar Mandi</label>
+              <select class="form-control form-select form-control-a" id="bathrooms">
+                <option>Luar / Gabung</option>
+                <option>Dalam</option>
+                
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="price">Harga Rp*</label>
+              <select class="form-control form-select form-control-a" id="price">
+                <option>Bebas</option>
+                <option>700.000 - 900.000</option>
+                <option>1.000.000 - 1.500.000</option>
+                <option>1.600.000 - 4.000.000</option>
+                <option>>5.000.000</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-b">Cari Kos</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div><!-- End Property Search Section -->
+
+  <!-- ======= Header/Navbar ======= -->
+  <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+    <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="navbar-brand text-brand" href="home.html">KOS<span class="color-b">-AN</span></a>
+
+      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link active" href="home.html">Home</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link " href="property-grid.html">Kos</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item " href="property-single.html">Detail Kos</a>
+              <a class="dropdown-item " href="agents-grid.html">Pemilik Kos</a>
+              <a class="dropdown-item " href="agent-single.html">Detail Pemilik</a>
+              <a class="dropdown-item " href="dashboard-login.html">Login Dashboard</a>
+              <a class="dropdown-item " href="index.html">Logout?</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <button type="button" class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
+        <i class="bi bi-search"></i>
+      </button>
+
+    </div>
+  </nav><!-- End Header/Navbar -->
+
+  <!-- ======= Intro Section ======= -->
+  <div class="intro intro-carousel swiper position-relative">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(assets/img/slide-1.jpg)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top"> Surabaya
+                      <br> 60225
+                    </p>
+                    <h1 class="intro-title mb-4 "> -
+                      <span class="color-b">Kos </span> Pavilion Permata
+                      <br> Universitas Wijaya Kusuma 
+                    </h1>
+                    <p class="intro-subtitle intro-price">
+                      <a href="#"><span class="price-a">SEWA | Rp.2.000.000</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(assets/img/slide-2.jpg)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top">Jawa Timur
+                      <br> 60111
+                    </p>
+                    <h1 class="intro-title mb-4">
+                      <span class="color-b">Kos </span> Pencak Kertajaya
+                      <br>  Institut Teknologi Sepuluh November
+                    </h1>
+                    <p class="intro-subtitle intro-price">
+                      <a href="#"><span class="price-a">SEWA | Rp.2.500.000</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(assets/img/slide-3.jpg)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top">Sukoharjo
+                      <br> 57552
+                    </p>
+                    <h1 class="intro-title mb-4">
+                      <span class="color-b">Kos </span> The Kahyangan
+                      <br> Universitas Duta Bangsa
+                    </h1>
+                    <p class="intro-subtitle intro-price">
+                      <a href="#"><span class="price-a">SEWA | Rp.3.000.000</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div><!-- End Intro Section -->
+
+  <main id="main">
+
+    <!-- ======= Services Section ======= -->
+    <section class="section-services section-t8">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title-wrap d-flex justify-content-between">
+              <div class="title-box">
+                <h2 class="title-a">Our Services</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          
+          <div class="col-md-4">
+            <div class="card-box-c foo">
+              <div class="card-header-c d-flex">
+                <div class="card-box-ico">
+                  <span class="bi bi-calendar4-week"></span>
+                </div>
+                <div class="card-title-c align-self-center">
+                  <h2 class="title-c">Sewa Kos</h2>
+                </div>
+              </div>
+              <div class="card-body-c">
+                <p class="content-c">
+                  Kami menawarkan lebih dari sekadar tempat tinggal. Menyediakan pengalaman hunian yang terbaik.
+                </p>
+              </div>
+              <div class="card-footer-c">
+                <a href="#" class="link-c link-icon">Selengkapnya
+                  <span class="bi bi-calendar4-week"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card-box-c foo">
+              <div class="card-header-c d-flex">
+                <div class="card-box-ico">
+                  <span class="bi bi-card-checklist"></span>
+                </div>
+                <div class="card-title-c align-self-center">
+                  <h2 class="title-c">Sewa Jangka Panjang</h2>
+                </div>
+              </div>
+              <div class="card-body-c">
+                <p class="content-c">
+                  layanan sewa untuk jangka waktu yang lama. Potongan harga dan kelebihan lainnya.
+                </p>
+              </div>
+              <div class="card-footer-c">
+                <a href="#" class="link-c link-icon">Selengkapnya
+                  <span class="bi bi-chevron-right"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Latest Properties Section ======= -->
+    <section class="section-property section-t8">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title-wrap d-flex justify-content-between">
+              <div class="title-box">
+                <h2 class="title-a">Kos Disewakan</h2>
+              </div>
+              <div class="title-link">
+                <a href="property-grid.html"> Semua Kos
+                  <span class="bi bi-chevron-right"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="property-carousel" class="swiper">
+          <div class="swiper-wrapper">
+
+            <div class="carousel-item-b swiper-slide">
+              <div class="card-box-a card-shadow">
+                <div class="img-box-a">
+                  <img src="assets/img/kosan1.jpg" alt="" class="img-a img-fluid">
+                </div>
+                <div class="card-overlay">
+                  <div class="card-overlay-a-content">
+                    <div class="card-header-a">
+                      <h2 class="card-title-a">
+                        <a href="property-single.html">Kos SetiaBudi Skygarden
+                          <br /> Jakarta Selatan</a>
+                      </h2>
+                    </div>
+                    <div class="card-body-a">
+                      <div class="price-box d-flex">
+                        <span class="price-a">SEWA | Rp. 2.000.000</span>
+                      </div>
+                      <a href="#" class="link-a">Selengkapnya
+                        <span class="bi bi-chevron-right"></span>
+                      </a>
+                    </div>
+                    <div class="card-footer-a">
+                      <ul class="card-info d-flex justify-content-around">
+                        <li>
+                          <h4 class="card-info-title">Area</h4>
+                          <span>75m
+                            <sup>2</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <h4 class="card-info-title">Kasur</h4>
+                          <span>4</span>
+                        </li>
+                        <li>
+                          <h4 class="card-info-title">Toilet</h4>
+                          <span>2</span>
+                        </li>
+                        <li>
+                          <h4 class="card-info-title">Garasi</h4>
+                          <span>1</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End carousel item -->
+
+            <div class="carousel-item-b swiper-slide">
+              <div class="card-box-a card-shadow">
+                <div class="img-box-a">
+                  <img src="assets/img/kosan2.jpg" alt="" class="img-a img-fluid">
+                </div>
+                <div class="card-overlay">
+                  <div class="card-overlay-a-content">
+                    <div class="card-header-a">
+                      <h2 class="card-title-a">
+                        <a href="property-single.html">Kos Kusuma Candra
+                          <br /> Jakarta Selatan</a>
+                      </h2>
+                    </div>
+                    <div class="card-body-a">
+                      <div class="price-box d-flex">
+                        <span class="price-a">SEWA | Rp.2.000.000</span>
+                      </div>
+                      <a href="property-single.html" class="link-a">Selengkapnya
+                        <span class="bi bi-chevron-right"></span>
+                      </a>
+                    </div>
+                    <div class="card-footer-a">
+                      <ul class="card-info d-flex justify-content-around">
+                        <li>
+                          <h4 class="card-info-title">Area</h4>
+                          <span>6x6
+                          </span>
+                        </li>
+                        <li>
+                          <h4 class="card-info-title">Kasur</h4>
+                          <span>2</span>
+                        </li>
+                        <li>
+                          <h4 class="card-info-title">Toilet</h4>
+                          <span>1</span>
+                        </li>
+                        <li>
+                          <h4 class="card-info-title">Garasi</h4>
+                          <span>1</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End carousel item -->
+
+            <div class="carousel-item-b swiper-slide">
+              <div class="card-box-a card-shadow">
+                <div class="img-box-a">
+                  <img src="assets/img/kosan3.jpg" alt="" class="img-a img-fluid">
+                </div>
+                <div class="card-overlay">
+                  <div class="card-overlay-a-content">
+                    <div class="card-header-a">
+                      <h2 class="card-title-a">
+                        <a href="property-single.html">Kos Patria Park
+                          <br /> Jakarta Timur</a>
+                      </h2>
+                    </div>
+                    <div class="card-body-a">
+                      <div class="price-box d-flex">
+                        <span class="price-a">SEWA | Rp.1.800.000</span>
+                      </div>
+                      <a href="property-single.html" class="link-a">Selengkapnya
+                        <span class="bi bi-chevron-right"></span>
+                      </a>
+                    </div>
+                    <div class="card-footer-a">
+                      <ul class="card-info d-flex justify-content-around">
+                        <li>
+                          <h4 class="card-info-title">Area</h4>
+                          <span>6x6
+                          </span>
+                        </li>
+                        <li>
+                          <h4 class="card-info-title">Kasur</h4>
+                          <span>2</span>
+                        </li>
+                        <li>
+                          <h4 class="card-info-title">Toilet</h4>
+                          <span>1</span>
+                        </li>
+                        <li>
+                          <h4 class="card-info-title">Garasi</h4>
+                          <span>1</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End carousel item -->
+
+            <div class="carousel-item-b swiper-slide">
+              <div class="card-box-a card-shadow">
+                <div class="img-box-a">
+                  <img src="assets/img/kosan4.jpg" alt="" class="img-a img-fluid">
+                </div>
+                <div class="card-overlay">
+                  <div class="card-overlay-a-content">
+                    <div class="card-header-a">
+                      <h2 class="card-title-a">
+                        <a href="property-single.html">Kos Jakarta Residence 
+                          <br /> Jakarta Pusat</a>
+                      </h2>
+                    </div>
+                    <div class="card-body-a">
+                      <div class="price-box d-flex">
+                        <span class="price-a">SEWA | Rp.2.500.000</span>
+                      </div>
+                      <a href="property-single.html" class="link-a">Selengkapnya
+                        <span class="bi bi-chevron-right"></span>
+                      </a>
+                    </div>
+                    <div class="card-footer-a">
+                      <ul class="card-info d-flex justify-content-around">
+                        <li>
+                          <h4 class="card-info-title">Area</h4>
+                          <span>7x7
+                          </span>
+                        </li>
+                        <li>
+                          <h4 class="card-info-title">Kasur</h4>
+                          <span>2</span>
+                        </li>
+                        <li>
+                          <h4 class="card-info-title">Toilet</h4>
+                          <span>1</span>
+                        </li>
+                        <li>
+                          <h4 class="card-info-title">Garasi</h4>
+                          <span>1</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End carousel item -->
+          </div>
+        </div>
+        <div class="propery-carousel-pagination carousel-pagination"></div>
+
+      </div>
+    </section><!-- End Latest Properties Section -->
+
+    <!-- ======= Agents Section ======= -->
+    <section class="section-agents section-t8">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title-wrap d-flex justify-content-between">
+              <div class="title-box">
+                <h2 class="title-a">Pemilik Kos</h2>
+              </div>
+              <div class="title-link">
+                <a href="agents-grid.html">Selengkapnya
+                  <span class="bi bi-chevron-right"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card-box-d">
+              <div class="card-img-d">
+                <img src="assets/img/zakaria.jpg" alt="" class="img-d img-fluid">
+              </div>
+              <div class="card-overlay card-overlay-hover">
+                <div class="card-header-d">
+                  <div class="card-title-d align-self-center">
+                    <h3 class="title-d">
+                      <a href="agent-single.html" class="link-two">Zakaria 
+                        <br> R.</a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="card-body-d">
+                  <p class="content-d color-text-a">
+                   Pemilik Kos Daerah Jakarta
+                  </p>
+                  <div class="info-agents color-a">
+                    <p>
+                      <strong>Phone: </strong> +62 888 xxx xxx
+                    </p>
+                    <p>
+                      <strong>Email: </strong> ZakariaR@gmail.com
+                  </div>
+                </div>
+                <div class="card-footer-d">
+                  <div class="socials-footer d-flex justify-content-center">
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="#" class="link-one">
+                          <i class="bi bi-facebook" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#" class="link-one">
+                          <i class="bi bi-twitter" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#" class="link-one">
+                          <i class="bi bi-instagram" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#" class="link-one">
+                          <i class="bi bi-linkedin" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card-box-d">
+              <div class="card-img-d">
+                <img src="assets/img/zakaria.jpg" alt="" class="img-d img-fluid">
+              </div>
+              <div class="card-overlay card-overlay-hover">
+                <div class="card-header-d">
+                  <div class="card-title-d align-self-center">
+                    <h3 class="title-d">
+                      <a href="agent-single.html" class="link-two">Zakaria 
+                        <br> R.</a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="card-body-d">
+                  <p class="content-d color-text-a">
+                   Pemilik Kos Daerah Jakarta
+                  </p>
+                  <div class="info-agents color-a">
+                    <p>
+                      <strong>Phone: </strong> +62 888 xxx xxx
+                    </p>
+                    <p>
+                      <strong>Email: </strong> ZakariaR@gmail.com
+                  </div>
+                </div>
+                <div class="card-footer-d">
+                  <div class="socials-footer d-flex justify-content-center">
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="#" class="link-one">
+                          <i class="bi bi-facebook" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#" class="link-one">
+                          <i class="bi bi-twitter" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#" class="link-one">
+                          <i class="bi bi-instagram" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#" class="link-one">
+                          <i class="bi bi-linkedin" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card-box-d">
+              <div class="card-img-d">
+                <img src="assets/img/zakaria.jpg" alt="" class="img-d img-fluid">
+              </div>
+              <div class="card-overlay card-overlay-hover">
+                <div class="card-header-d">
+                  <div class="card-title-d align-self-center">
+                    <h3 class="title-d">
+                      <a href="agent-single.html" class="link-two">Zakaria 
+                        <br> R.</a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="card-body-d">
+                  <p class="content-d color-text-a">
+                   Pemilik Kos Daerah Jakarta
+                  </p>
+                  <div class="info-agents color-a">
+                    <p>
+                      <strong>Phone: </strong> +62 888 xxx xxx
+                    </p>
+                    <p>
+                      <strong>Email: </strong> ZakariaR@gmail.com
+                  </div>
+                </div>
+                <div class="card-footer-d">
+                  <div class="socials-footer d-flex justify-content-center">
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="#" class="link-one">
+                          <i class="bi bi-facebook" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#" class="link-one">
+                          <i class="bi bi-twitter" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#" class="link-one">
+                          <i class="bi bi-instagram" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#" class="link-one">
+                          <i class="bi bi-linkedin" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Agents Section -->
+
+   
+
+    <!-- ======= Testimonials Section ======= -->
+    <section class="section-testimonials section-t8 nav-arrow-a">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title-wrap d-flex justify-content-between">
+              <div class="title-box">
+                <h2 class="title-a">Review</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="testimonial-carousel" class="swiper">
+          <div class="swiper-wrapper">
+
+            <div class="carousel-item-a swiper-slide">
+              <div class="testimonials-box">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6">
+                    <div class="testimonial-img">
+                      <img src="assets/img/christopercampbell.jpg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6">
+                    <div class="testimonial-ico">
+                      <i class="bi bi-chat-quote-fill"></i>
+                    </div>
+                    <div class="testimonials-content">
+                      <p class="testimonial-text">
+                        Informasi mengenai setiap kosan sangat jelas dan mendalam. 
+                        Saya mendapatkan detail yang saya butuhkan, termasuk foto-foto kamar, fasilitas yang tersedia, dan informasi lokasi dengan jelas. Ini membantu saya membuat keputusan yang lebih baik.
+                      </p>
+                    </div>
+                    <div class="testimonial-author-box">
+                      <img src="assets/img/christopercampbell.jpg" alt="" class="testimonial-avatar">
+                      <h5 class="testimonial-author">Albert & Erika</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End carousel item -->
+
+            <div class="carousel-item-a swiper-slide">
+              <div class="testimonials-box">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6">
+                    <div class="testimonial-img">
+                      <img src="assets/img/sergiodepaul.jpg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6">
+                    <div class="testimonial-ico">
+                      <i class="bi bi-chat-quote-fill"></i>
+                    </div>
+                    <div class="testimonials-content">
+                      <p class="testimonial-text">
+                        Saya sangat terkesan dengan pengalaman menggunakan website kosan ini. Antar muka situs web sangat ramah pengguna, mudah dinavigasi,
+                         dan informasi yang diberikan sangat komprehensif. Saya dengan cepat menemukan kosan yang sesuai dengan preferensi saya.
+                      </p>
+                    </div>
+                    <div class="testimonial-author-box">
+                      <img src="assets/img/sergiodepaul.jpg" alt="" class="testimonial-avatar">
+                      <h5 class="testimonial-author">Pablo & Emma</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End carousel item -->
+
+          </div>
+        </div>
+        <div class="testimonial-carousel-pagination carousel-pagination"></div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <section class="section-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">KOS-AN</h3>
+            </div>
+            <div class="w-body-a">
+              <p class="w-text-a color-text-a">
+                Memberikan layanan penyewaan kosan sesuai dengan kebutuhan anda.
+              </p>
+            </div>
+            <div class="w-footer-a">
+              <ul class="list-unstyled">
+                <li class="color-a">
+                  <span class="color-text-a">Phone :</span> +62 896 6873 1127
+                </li>
+                <li class="color-a">
+                  <span class="color-text-a">Email :</span> kosan23@gmail.com
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">Kawasan Pulau Jawa</h3>
+            </div>
+            <div class="w-body-a">
+              <ul class="list-unstyled">
+                <li class="item-list-a">
+                  <i class="bi bi-chevron-right"></i> <a href="#">Bandung</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="bi bi-chevron-right"></i> <a href="#">Denpasar</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="bi bi-chevron-right"></i> <a href="#">Jakarta</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="bi bi-chevron-right"></i> <a href="#">Malang</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="bi bi-chevron-right"></i> <a href="#">Yogyajakrta</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="bi bi-chevron-right"></i> <a href="#">Surabaya</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="nav-footer">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">Home</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">About</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Property</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Blog</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="socials-a">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="bi bi-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="bi bi-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="bi bi-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="bi bi-linkedin" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="copyright-footer">
+            <p class="copyright color-text-a">
+              &copy; Copyright
+              <span class="color-a">KOS-AN</span> All Rights Reserved.
+            </p>
+          </div>
+          <div class="credits">
+            Designed by <a href="https://www.instagram.com/muharrir_rajuddin/">Fantastic Four Group</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
