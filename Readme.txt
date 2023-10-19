@@ -1,6 +1,9 @@
-Thanks for downloading this template!
+Group 20 WEB D aft. Infinite Learning 2023
 
-Template Name: EstateAgency
-Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Member : 
+- Arie Gimnastiar Nurdin ( Hustler and Hacker)
+- Eza Rafli viscara ( Hacker )
+- Mualana Fajar Anas ( Hipster)
+- Muharrir Rajuddin ( Hacker )
+
+Thank You for kaka kaka mentor atas ilmunya
